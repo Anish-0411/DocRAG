@@ -1,0 +1,55 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.env 2
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+.venv_*/
+env/
+
+# Generated indexes and snapshots
+index_store/
+snapshot_store/
+*.faiss
+
+# Local datasets and documents
+data/
+*.pdf
+*.docx
+
+# Node
+node_modules/
+build/
+dist/
+
+# Generated evaluation results
+evaluation/results/
+evaluation/**/results/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS and IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.legacy-backup
+
+# Generated evaluation analysis
+backend/evaluation/phase7m_answer_analysis/
